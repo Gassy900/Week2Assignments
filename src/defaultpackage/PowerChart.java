@@ -19,7 +19,7 @@ public class PowerChart {
         System.out.println("--\t ---");
         for (int i = 0; i < var; i++) {
             ans[var] = (int)(Math.pow(2,(i+1)));
-            System.out.println((i+1)+"\t "+ ans[var]);
+            System.out.println((i+1)+"\t 2 ^ "+(i+1)+" = "+ ans[var]);
         }
 
     }
